@@ -1,6 +1,6 @@
 //wraper function for Grunt config
 module.exports = function(grunt) {
-//load plugin
+
 //initialize config project
   grunt.initConfig({
     //read the project settings
