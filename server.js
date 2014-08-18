@@ -3,9 +3,9 @@ var http = require('http');
 
 var app = express();
 
-app.use(express.static(__dirname + '/public'))
+app.use(express.static(__dirname + '/public'));
 
 var server = http.createServer(app);
 server.listen(3000, function() {
-  console.log('The server is listening on port 3000')
-})
+  console.log('The server is listening on port 3000');
+});

@@ -1,14 +1,26 @@
 {
-  "name": "grunt-lint",
-  "version": "0.1.0",
+  "name": "GruntLint",
+  "description": "Linting with Grunt",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macikokoro/GruntJSHint.git"
+  },
+  "author": "JQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macikokoro/GruntJSHint.git/issues"
+  },
+  "homepage": "https://github.com/macikokoro/GruntJSHint",
+  "dependencies": {
+    "express": "^4.7.4"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-nodeunit": "~0.4.1",
-    "grunt-contrib-uglify": "~0.5.0"
-  }
-    "devDependencies": {
-      "grunt": "^0.4.5",
-      "grunt-contrib-jshint": "^0.10.0"
+    "grunt-contrib-jshint": "^0.10.0"
   }
 }

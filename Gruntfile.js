@@ -1,14 +1,14 @@
 //wraper function for Grunt config
 module.exports = function(grunt) {
-//load plugin
+
 //initialize config project
   grunt.initConfig({
     //read the project settings
-    pkg: grunt.file.readJSON('package.json')
-    //jshint plugin
+    pkg: grunt.file.readJSON('package.json'),
+    //plugin
     jshint: {
       //define the files to lint
-      files: ['gruntfile.js', 'server.js', 'test/**/*.js'],
+      files: ['*.js', 'test/**/*.js'],
       options: {
         //options to override jshint defaults
         globals: {
